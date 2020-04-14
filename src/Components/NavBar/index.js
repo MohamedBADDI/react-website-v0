@@ -11,7 +11,7 @@ const NavBar = () => {
                     <LogoText>Ultra Profile</LogoText>
                 </Logo>               
                 <UlList>
-                    <ListItem><Link className="StyledLink" to="/">Home</Link></ListItem>
+                    <ListItem><Link className="StyledLink" to="/react-website-v0/">Home</Link></ListItem>
                     <ListItem><Anchor>Work</Anchor></ListItem>
                     <ListItem><Anchor>Portfolio</Anchor></ListItem>
                     <ListItem><Anchor>Resume</Anchor></ListItem>
