@@ -18,7 +18,7 @@ const Portfolio = () => {
     const portfolioImages = images.map((imageItem) => {
         return(
             <ImageWrapper key={imageItem.id}>
-                <Image src={imageItem.image} alt=""/>
+                <Image src={"/react-website-v0/"+imageItem.image} alt=""/>
                 <Overlay>
                     <OverlaySpan>
                         Show Image
